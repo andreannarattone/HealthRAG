@@ -8,8 +8,7 @@ orquestados con LangGraph. Proyecto de PLN III (FIUBA).
 > HealthRAG es una herramienta de **consulta documental**. No es un sistema de
 > diagnóstico ni da indicaciones para pacientes concretos.
 
-**Informe técnico:** [`docs/Informe_HealthRAG.pdf`](docs/Informe_HealthRAG.pdf)
-(también en Word: [`docs/Informe_HealthRAG.docx`](docs/Informe_HealthRAG.docx)).
+**Informe técnico:** [`docs/Informe_HealthRAG.pdf`](docs/Informe_HealthRAG.pdf).
 Incluye objetivo, marco conceptual, corpus, arquitectura, implementación, evaluación,
 resultados, conclusiones, consideraciones éticas y referencias.
 
