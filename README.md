@@ -1,5 +1,7 @@
 # HealthRAG
 
+### [Ver el informe técnico en PDF](docs/Informe_HealthRAG.pdf)
+
 Sistema multiagente para la recuperación y verificación de evidencia médica sobre
 **hipertensión arterial y salud cardiovascular**, basado en RAG híbrido
 (BM25 + embeddings + RRF + Cross-Encoder) y dos agentes (Analista y Verificador)
@@ -41,7 +43,7 @@ salvedades en el informe.
 | Optimización de costo y latencia | caché TTL, top-k 5, verificador con modelo chico, máximo 2 ciclos (`config.yaml`) |
 | Acción final automática | `app/actions/notifier.py` (webhook ante abstenciones) y auditoría JSONL |
 | Métricas de modelo, agentes y RAG | `app/evaluation/`, resultados en `reports_*/`, registrados en MLflow (`app/evaluation/mlflow_tracking.py`) |
-| Informe técnico | `docs/Informe_HealthRAG.pdf` |
+| Informe técnico | [`docs/Informe_HealthRAG.pdf`](docs/Informe_HealthRAG.pdf) |
 
 ## Estructura
 
