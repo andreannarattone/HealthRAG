@@ -1,0 +1,7 @@
+exp,category,n,abstained,correct_abstention,false_abstention,faithfulness,citation_precision,cited_source_relevance,context_hit,redundancy,iterations,tokens,cost_usd,rougeL,bleu,semantic_sim,latency_p50_ms,latency_p95_ms
+EXP1,directa,24,0.0833,,0.0833,1.0,1.0,0.5909,0.875,0.0,1.0,0.0,0.0,0.3054,0.1362,0.9203,10.2679,11.6737
+EXP1,sin_evidencia,5,1.0,1.0,,,,,,0.0,1.0,0.0,0.0,,,,63.1393,67.7193
+EXP2,directa,24,0.0833,,0.0833,1.0,1.0,0.6061,0.9583,0.0347,1.0,0.0,0.0,0.2876,0.1156,0.9223,3742.3968,5550.4682
+EXP2,sin_evidencia,5,0.8,0.8,,1.0,1.0,,,0.0,1.0,0.0,0.0,,,,3813.8349,4396.9839
+EXP3,directa,24,0.0833,,0.0833,1.0,1.0,0.6061,0.9583,0.0347,1.0833,0.0,0.0,0.2876,0.1156,0.9223,3786.9183,6559.0163
+EXP3,sin_evidencia,5,0.8,0.8,,1.0,1.0,,,0.0,1.8,0.0,0.0,,,,9152.1501,10693.0809

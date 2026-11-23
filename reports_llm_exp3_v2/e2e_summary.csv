@@ -1,0 +1,2 @@
+exp,mode,n,abstained,correct_abstention,false_abstention,faithfulness,citation_precision,cited_source_relevance,context_hit,redundancy,iterations,tokens,cost_usd,rougeL,bleu,semantic_sim,latency_p50_ms,latency_p95_ms
+EXP3,multiagent,29,0.1724,1.0,0.0,0.9948,0.902,0.6264,0.9583,0.0086,1.2759,5028.9655,0.0013,0.3816,0.1778,0.9357,16634.1976,67136.8991

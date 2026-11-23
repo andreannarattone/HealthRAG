@@ -1,0 +1,32 @@
+# --- Ingesta (Etapas 1-2)
+pymupdf>=1.24
+pandas>=2.2
+openpyxl>=3.1
+pyyaml>=6.0
+python-dotenv>=1.0
+
+# --- Recuperación (Etapas 3-4)
+numpy>=1.26
+rank-bm25>=0.2.2
+snowballstemmer>=2.2
+faiss-cpu>=1.8
+sentence-transformers>=3.0     # embeddings + cross-encoder (instala torch y transformers)
+
+# --- Agentes y LLM (Etapa 5)
+langgraph>=0.2
+openai>=1.40                   # cliente para OpenAI / Groq / Ollama (API compatible)
+
+# --- API e interfaz (Etapa 6)
+fastapi>=0.110
+uvicorn[standard]>=0.29
+pydantic>=2.7
+httpx>=0.27
+streamlit>=1.35
+
+# --- Evaluación (Etapa 7)
+matplotlib>=3.8
+tabulate>=0.9
+mlflow>=3.0                    # seguimiento de experimentos (app/evaluation/mlflow_tracking.py)
+
+# --- Pruebas
+pytest>=8.0

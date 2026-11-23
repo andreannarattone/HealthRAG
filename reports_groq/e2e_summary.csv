@@ -1,0 +1,4 @@
+exp,mode,n,abstained,correct_abstention,false_abstention,faithfulness,citation_precision,cited_source_relevance,context_hit,redundancy,iterations,tokens,cost_usd,rougeL,bleu,semantic_sim,latency_p50_ms,latency_p95_ms
+EXP1,basic,10,0.3,1.0,0.0,0.9643,0.8214,0.8214,1.0,0.0333,1.0,2081.0,0.0005,0.5543,0.2639,0.948,9135.3219,25940.9737
+EXP2,advanced,10,0.4,1.0,0.1429,1.0,0.8611,0.5833,1.0,0.025,1.0,2076.8,0.0005,0.4982,0.2524,0.9427,13017.5195,27739.1062
+EXP3,multiagent,10,0.3,1.0,0.0,1.0,0.8929,0.5238,1.0,0.05,1.4,4704.2,0.0011,0.5302,0.2425,0.944,16794.7955,83365.9421

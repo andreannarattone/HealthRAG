@@ -1,0 +1,33 @@
+{
+  "llm": {
+    "provider": "extractive",
+    "base_url": null,
+    "analyst_model": "gpt-4o-mini",
+    "verifier_model": "gpt-4o-mini",
+    "temperature": 0.0,
+    "max_tokens": 700,
+    "timeout_s": 60,
+    "price_input_per_1m": 0.15,
+    "price_output_per_1m": 0.6
+  },
+  "retrieval": {
+    "index_dir": "data/index",
+    "embedding_model": "intfloat/multilingual-e5-small",
+    "query_prefix": "query: ",
+    "passage_prefix": "passage: ",
+    "embedding_batch_size": 32,
+    "reranker_model": "cross-encoder/mmarco-mMiniLMv2-L12-H384-v1",
+    "candidates_per_retriever": 30,
+    "rrf_k": 60,
+    "rerank_candidates": 20,
+    "top_k": 5,
+    "min_rerank_score": -2.0,
+    "min_vector_score": 0.3
+  },
+  "agents": {
+    "max_iterations": 2,
+    "min_supported_ratio": 0.8,
+    "heuristic_support_threshold": 0.35,
+    "max_context_tokens": 1800
+  }
+}

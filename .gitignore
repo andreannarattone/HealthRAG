@@ -1,0 +1,32 @@
+.env
+__pycache__/
+*.pyc
+.pytest_cache/
+.ipynb_checkpoints/
+logs/*
+!logs/.gitkeep
+# Corpus (PDF), fragmentos e índice FAISS SÍ se versionan para poder correr el sistema sin
+# regenerarlos. El catálogo queda afuera: guarda rutas absolutas de la PC (make catalog lo rehace).
+data/processed/corpus_catalog.csv
+# Copias viejas que venían en el zip original
+data/processed/*_zip_0511.*
+reports/*
+!reports/.gitkeep
+.venv/
+
+# Corridas de evaluación descartadas (ver docs/Informe_HealthRAG.pdf)
+reports_llm/
+reports_groq_v1/
+reports_llm_exp3/
+# Logs de corridas: contienen el identificador de la cuenta del proveedor LLM
+reports_*/ejecucion.log
+# Copia con guion del CSV de metadatos (el config usa metadata_template.csv)
+data/metadata-template.csv
+# HTML intermedio del informe (se regenera con docs/informe/build_informe.py)
+docs/informe/informe.html
+# Archivos temporales de Word
+~$*
+# MLflow: base y artefactos locales (guardan rutas absolutas; se regeneran con
+# python -m app.evaluation.mlflow_tracking)
+mlflow.db
+mlruns/
